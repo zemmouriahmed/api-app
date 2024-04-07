@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+  width: 100%; /* Assure que l'app s'étend sur toute la largeur */
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+
+
+.App-header {
+  background-color: #282c34;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  width: 100%;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+}
+.search-input {
+  margin-right: 5px; /* Espacement avec le bouton */
+  height: 40px; /* Ajustez la hauteur comme vous le souhaitez */
+  font-size: 16px; /* Ajustez la taille de la police comme nécessaire */
+  padding: 0 10px; /* Ajoute du padding à gauche et à droite */
+  border: 2px solid #007bff; /* Optionnel : Ajoute une bordure */
+  border-radius: 5px; /* Optionnel : Arrondit les coins */
+  width: 100%; /* Augmente la largeur du champ de recherche */
+
+}
+
+
+
+.App-link {
+  color: #61dafb;
+}
+
